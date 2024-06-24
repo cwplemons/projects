@@ -47,6 +47,7 @@ _uart_init:
   RETURN
 
 _input0_get:
+  MOV 0x0226, WREG
   RETURN
 
 _input1_get:
