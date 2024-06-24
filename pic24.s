@@ -45,3 +45,9 @@ _uart_init:
   NOP
   MOV 0x0236, W0
   RETURN
+
+_input0_get:
+  RETURN
+
+_input1_get:
+  RETURN
