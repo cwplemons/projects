@@ -8,7 +8,8 @@ _setup:
   CALL _spi_init
   CALL _uart_init
 _loop:
-  
+  CALL _input0_get
+  CALL _input1_get
 _done:
   CALL _done
 
@@ -40,4 +41,7 @@ _spi_init:
   RETURN
 
 _uart_init:
+  BSET U1MODE, #15
+  NOP
+  MOV 0x0236, W0
   RETURN
