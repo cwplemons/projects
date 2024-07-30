@@ -1,0 +1,23 @@
+Video Resolution: 400 x 240 pixels (QWVGA)
+Color Depth: 4 bits per pixel (4bpp)
+
+Tile-Based Rendering:
+  Tiles: 4,096 8x8 tiles
+  Memory for Tiles: 128 KB
+
+Background Layers:
+  Number of Layers: 4
+  Memory for Background Layers: 188 KB
+Sprite Layers:
+  Number of Layers: 2
+  Sprite Tiles per Layer: 512 8x8 tiles
+  Memory for Sprite Layers: 32 KB
+
+Double Buffering:
+  Memory for Double Buffering: 94 KB
+
+Color Palette:
+  Number of Colors: 1,024 RGB colors
+  Memory for Color Palette: 3 KB
+
+Total Memory Required: 445 KB
